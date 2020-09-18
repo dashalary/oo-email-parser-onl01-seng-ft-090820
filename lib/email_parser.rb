@@ -15,7 +15,7 @@ def parse
 email_array = email_addresses.split(/\s/)
 email_array.each do |email|
   if email.ends_with?(",")
-    email.gsub()
+    email.delete_suffix
 
 
 email_array = email_array.uniq 
