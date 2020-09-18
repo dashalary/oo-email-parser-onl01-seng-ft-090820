@@ -13,11 +13,6 @@ end
 def parse
 
 email_array = email_addresses.split(/\s/)
-email_array.each do |email|
-if email.include?(",")
-  email.delete ","
-end
-end
 email_addresses = email_array[0]
 email_array
 end
