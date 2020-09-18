@@ -14,6 +14,8 @@ def parse
 
 email_array = email_addresses.split(/\s/)
 email_address = email_array[0]
+if email_address.include?(",")
+  email_address.
 email_array
 end
 
